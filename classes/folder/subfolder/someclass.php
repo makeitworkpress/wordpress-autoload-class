@@ -2,7 +2,7 @@
 /**
  * This class is namespaced according to the folder structure!
  */
-namespace Folder;
+namespace Folder\Subfolder;
 
 class Someclass {
     
