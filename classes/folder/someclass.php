@@ -9,7 +9,7 @@ class Someclass {
     private $property;
 
     public function __construct() {
-         $this->property = 1;       
+         $this->property = 'Folder';       
     }
 
     public function getProperty() {
