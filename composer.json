@@ -1,0 +1,15 @@
+{
+    "name": "makeitworkpress/autoloading-demo",
+    "description": "Demo for autoloading with WordPress",
+    "repositories": [        
+        {
+            "type": "vcs",
+            "url": "https://github.com/makeitworkpress/wp-components.git"
+        }       
+    ],
+    "require": {
+        "php": ">=7.0",
+        "makeitworkpress/wp-components": "dev-master"
+    },
+    "homepage": "https://github.com/makeitworkpress/wordpress-autoload-class/"         
+}
