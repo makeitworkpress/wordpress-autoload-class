@@ -47,4 +47,7 @@ echo $class->getProperty(); // Echoes WordPress
  */
 require_once 'vendor/autoload.php';
 
+/**
+ * This loads the WP Components module, as it is included in the example...
+ */
 $components = new MakeitWorkPress\WP_Components\Boot();
