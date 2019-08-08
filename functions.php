@@ -18,3 +18,8 @@
  */
 $class = new Folder\Someclass();   // Constructs the class
 echo $class->getProperty(); // Echoes 1
+
+/*
+ * Calls an autoloaded class, but a folder deeper
+ */
+$class = new Folder\Subfolder\Someclass();
