@@ -39,3 +39,12 @@ echo $class->getProperty(); // Echoes Folder
  */
 $class = new WordPress\Someclass();   // Constructs the class
 echo $class->getProperty(); // Echoes WordPress
+
+
+/**
+ * Uses composer to autoload our vendor modules. 
+ * Make sure you are using composer update --prefer dist in your terminal first, so these modules are loaded!
+ */
+require_once 'vendor/autoload.php';
+
+$components = new MakeitWorkPress\WP_Components\Boot();
